@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 
 export default function Resultado({ route, navigation }) {
+    
     /*Réver contra*/
     const { consumoMedio, classificacao } = route.params;
     return (
